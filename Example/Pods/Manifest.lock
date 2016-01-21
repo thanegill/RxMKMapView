@@ -5,7 +5,7 @@ PODS:
     - RxSwift (~> 2.0)
   - RxCocoa (2.1.0):
     - RxSwift (~> 2.0)
-  - RxMKMapView (1.0.5):
+  - RxMKMapView (2.0.0):
     - RxBlocking (~> 2.1.0)
     - RxCocoa (~> 2.1.0)
     - RxSwift (~> 2.1.0)
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
   RxBlocking: fa297def258d85c5beae9ed507f94645260b3747
   RxCocoa: 79b5feb8378545336e756a0a33fcf5e95050b71c
-  RxMKMapView: 064d6271cf12eb3ff4e01449423142d187d88b9d
+  RxMKMapView: b74b0f0d16f495ac08c1e4dc645629926c78060a
   RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
 
 COCOAPODS: 0.39.0

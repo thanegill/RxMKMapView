@@ -1,6 +1,6 @@
 {
   "name": "RxMKMapView",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "summary": "Reactive wrapper for MKMapView `delegate`.",
   "description": "RxMKMapView is a Reactive wrapper for MKMapView `delegate`.\n\n```swift\n\nlet mapView = MKMapView(frame: view.frame)\nview.addSubview(mapView)\n\nmapView.rx_WillStartLoadingMap\n.subscribeNext {\n  print(\"rx_WillStartLoadingMap\")\n}.addDisposableTo(disposeBag)\n\nmapView.rx_DidFinishLoadingMap\n.subscribeNext { _ in\n  print(\"rx_DidFinishLoadingMap\")\n}.addDisposableTo(disposeBag)\n\n```",
   "homepage": "https://github.com/sger/RxMKMapView",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/sger/RxMKMapView.git",
-    "tag": "1.0.5"
+    "tag": "2.0.0"
   },
   "social_media_url": "https://twitter.com/sger",
   "platforms": {
