@@ -46,8 +46,8 @@ mapView.rx_DidFinishLoadingMap
     'RxMKMapView' => ['Pod/Assets/*.png']
   }
 
-  s.dependency 'RxCocoa', '~> 2.0'
-  s.dependency 'RxSwift', '~> 2.0'
-  s.dependency 'RxBlocking', '~> 2.0'
+  s.dependency 'RxCocoa', '~> 2.1.0'
+  s.dependency 'RxSwift', '~> 2.1.0'
+  s.dependency 'RxBlocking', '~> 2.1.0'
   s.frameworks = 'Foundation'
 end

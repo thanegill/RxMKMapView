@@ -3,9 +3,9 @@ use_frameworks!
 
 target 'RxMKMapView_Example', :exclusive => true do
   pod "RxMKMapView", :path => "../"
-  pod 'RxSwift',    '~> 2.0'
-  pod 'RxCocoa',    '~> 2.0'
-  pod 'RxBlocking', '~> 2.0'
+  pod 'RxSwift',    '~> 2.1.0'
+  pod 'RxCocoa',    '~> 2.1.0'
+  pod 'RxBlocking', '~> 2.1.0'
 end
 
 target 'RxMKMapView_Tests', :exclusive => true do
